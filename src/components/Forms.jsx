@@ -50,7 +50,7 @@ export default function Forms() {
           </label>
           <label>
             <input type="radio" name="attendance" value="Тилек каршы, келе албайм" />
-            Тилек каршы, келе албайм
+            Тилеке каршы, келе албайм
           </label>
         </div>
         <button type="submit">Жөнөтүү</button>
