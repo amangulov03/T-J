@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .app {
@@ -9,6 +10,7 @@
 }
 
 body {
+    overflow-x: hidden;
     background-color: #f5ece0;
     user-select: none;
     -webkit-touch-callout: none; /* Запретить всплывающее меню в iOS */

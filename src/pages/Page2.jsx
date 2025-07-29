@@ -148,8 +148,8 @@ function Page2() {
             >
                 <h2>2025</h2>
                 <div className="months">
-                    <span>Июль</span> | <span>Август</span> | <span>Сентябрь</span> |{" "}
-                    <span>Октябрь</span> | <span>Ноябрь</span>
+                     <span>Август</span> | <span>Сентябрь</span> |{" "}
+                    <span>Октябрь</span> 
                 </div>
                 <div className="days">
                     <span>1</span> <span>2</span> <span>3</span> <span>4</span>{" "}
