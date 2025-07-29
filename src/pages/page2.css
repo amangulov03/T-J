@@ -75,7 +75,7 @@
 .songs {
     z-index: 99;
     position: relative;
-    top: 700px;
+    top: 550px;
     cursor: pointer;
 }
 
@@ -98,7 +98,7 @@
     color: #666;
     padding: 20px;
     position: relative;
-    top: 780px;
+    top: 700px;
 }
 
 .calendar h2 {
@@ -282,7 +282,7 @@
 
 .map {
     position: relative;
-    top: 1000px;
+    top: 900px;
     filter: grayscale(100%);
     padding-bottom: 20px;
 }
@@ -467,11 +467,11 @@ form button {
         padding-bottom: 100px;
     }
     .songs {
-        top: 650px;
+        top: 550px;
     }
 
     .calendar {
-        top: 750px;
+        top: 700px;
     }
 
     .calendar h2 {
