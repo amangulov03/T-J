@@ -149,7 +149,7 @@ function Page2() {
                 <h2>2025</h2>
                 <div className="months">
                      <span>Август</span> | <span>Сентябрь</span> |{" "}
-                    <span>Октябрь</span> 
+                    <span>Октябрь</span>
                 </div>
                 <div className="days">
                     <span>1</span> <span>2</span> <span>3</span> <span>4</span>{" "}
@@ -202,7 +202,7 @@ function Page2() {
                     xmlns="http://www.w3.org/2000/svg"
                     width="524"
                     height="873"
-                    viewBox="0 0 190 533"
+                    viewBox="0 0 110 633"
                     fill="none"
                 >
                     <path
@@ -269,10 +269,11 @@ function Page2() {
                     <IoIosHeart
                         style={{
                             fontSize: "40px",
-                            position: "relative",
-                            top: -237,
-                            left: -117,
+                            position: "absolute",
+                            top: -340,
+                            left: 8,
                             color: "#90a7c4",
+                            zIndex: 999,
                         }}
                     />
                 </motion.div>
