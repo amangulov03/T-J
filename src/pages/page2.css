@@ -1,0 +1,678 @@
+@font-face {
+    font-family: "MyFont2";
+    src: url(../fonts/Annabelle\ Cyr.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MyFont3";
+    src: url(../fonts/flowext.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.wedding-image {
+    position: relative;
+    width: 280px;
+    height: 400px;
+}
+
+.weding_day {
+    position: relative;
+    top: 100px;
+    z-index: 99;
+    line-height: 65px;
+}
+
+.weding_day h1 {
+    font-family: "MyFont2", sans-serif;
+    font-size: 54px;
+    color: #fff;
+    font-weight: 100;
+}
+
+.weding_day p {
+    font-family: "MyFont2", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.text_i_and_j h1 {
+    font-family: "MyFont2", sans-serif;
+    font-size: 48px;
+    font-weight: 100;
+}
+
+.text_i_and_j p {
+    font-family: "MyFont3", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.text_i_and_j .heart {
+    width: 35px;
+    height: 35px;
+    color: #90a7c4;
+    padding: 60px 0;
+    animation: pulse 1.5s infinite;
+}
+
+/* Анимация "пульс" */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.songs {
+    z-index: 99;
+    position: relative;
+    top: 700px;
+    cursor: pointer;
+}
+
+.songs {
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+}
+
+.songs p {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: #666;
+    padding-top: 3px;
+}
+
+.calendar {
+    font-family: "MyFont", sans-serif;
+    text-align: center;
+    color: #666;
+    padding: 20px;
+    position: relative;
+    top: 780px;
+}
+
+.calendar h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.months {
+    font-size: 1.2em;
+    margin: 20px;
+    padding-left: 30px;
+}
+
+.months span {
+    margin: 0 5px;
+    margin: 0 20px;
+}
+
+.months span:nth-of-type(3) {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.days span {
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+.days .highlight {
+    font-weight: bold;
+    position: absolute;
+    z-index: -1;
+    font-size: 70px;
+    right: -9px;
+    top: -14px;
+    animation: pulse2 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse2 {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.days .day {
+    position: relative;
+    color: #fff;
+    z-index: 99;
+}
+
+.wedding-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+    position: relative;
+    top: 850px;
+}
+
+.wedding-gallery img[alt="Bride with bouquet"] {
+    width: 320px;
+    height: auto;
+}
+
+
+.photo-frame img {
+    border: 4px solid #90a7c4;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    height: 370px;
+    transform: rotate(-2deg);
+}
+
+.schedule {
+    position: relative;
+    top: 1000px;
+    color: #666;
+    font-family: "MyFont3", sans-serif;
+}
+
+/* .schedule .heart {
+    animation: pulse2 1.5s infinite ease-in-out;
+} */
+
+.schedule svg {
+    padding-left: 230px;
+}
+
+.first {
+    position: absolute;
+    top: 220px;
+    left: 1000px;
+    color: #000;
+    font-size: 28px;
+    text-align: start;
+}
+
+.first p {
+    color: #666;
+}
+
+.second {
+    position: absolute;
+    top: 430px;
+    left: 900px;
+    color: #000;
+    font-size: 28px;
+    text-align: start;
+}
+
+.second p {
+    color: #666;
+}
+
+.third {
+    position: absolute;
+    top: 680px;
+    left: 1000px;
+    color: #000;
+    font-size: 28px;
+    text-align: start;
+}
+
+.third p {
+    color: #666;
+}
+
+.venue-section {
+    position: relative;
+    top: 1000px;
+    background-color: #90a7c4;
+    padding: 50px 0;
+}
+
+.venue-section h2 {
+    color: #fff;
+    padding: 50px;
+    font-family: "MyFont", sans-serif;
+    font-size: 28px;
+}
+
+.venue-image img {
+    width: 600px;
+    height: 300px;
+    border: 4px #fff solid;
+    /* filter: grayscale(100%); */
+}
+
+.venue-info {
+    padding: 30px;
+}
+
+.venue-info p {
+    font-family: "MyFont2", sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+
+.venue-info h1 {
+    font-family: "MyFont", sans-serif;
+    font-size: 36px;
+    color: #fff;
+    padding: 25px;
+}
+
+.map {
+    position: relative;
+    top: 1000px;
+    filter: grayscale(100%);
+    padding-bottom: 20px;
+}
+
+.map h4 {
+    font-family: "MyFont3", sans-serif;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.map h4 b {
+    font-weight: bold;
+}
+
+.map p {
+    font-family: "MyFont3", sans-serif;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.forms {
+    position: relative;
+    top: 1000px;
+    padding: 100px 0;
+    background-color: #90a7c4;
+}
+
+.forms h1 {
+    font-family: "MyFont", sans-serif;
+    font-size: 36px;
+    color: #fff;
+}
+
+.forms p {
+    font-family: "MyFont", sans-serif;
+    font-size: 16px;
+    color: #fff;
+    width: 450px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+form {
+    display: grid;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column; /* каждый label на новой строке */
+    gap: 8px;
+    color: #fff;
+}
+
+.form-group .wrapper_input {
+    width: 95%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group span {
+    text-align: start;
+    padding-top: 20px;
+}
+
+.form-group label {
+    display: flex; /* радио и текст рядом */
+    align-items: center;
+    gap: 15px; /* расстояние между радио и текстом */
+}
+
+.form-group input[type="radio"] {
+    margin: 0; /* убираем дефолтные отступы, если нужно */
+}
+
+form button {
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    font-weight: 600;
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #666;
+}
+
+.sections {
+    height: 200px;
+    position: relative;
+    top: 1000px;
+}
+
+.sections img {
+    position: absolute;
+    width: 250px;
+    height: 320px;
+    z-index: 999;
+    top: -50px;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    border: 4px #fff solid;
+    transform: rotate(-5deg);
+}
+
+/* Countdown.css */
+.countdown-container {
+    position: relative;
+    top: 1000px;
+    background-color: #90a7c4;
+    padding: 100px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: -1;
+}
+
+.text {
+    padding-top: 100px;
+    font-size: 4em;
+    font-family: "MyFont", sans-serif;
+
+    padding-bottom: 100px;
+}
+
+.time-boxes {
+    display: flex;
+    gap: 10px;
+    font-family: "MyFont3", sans-serif;
+}
+
+.time-box {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time-box span {
+    font-size: 0.7em;
+    font-weight: normal;
+}
+
+/* Медиа-запросы для адаптивности */
+@media (max-width: 768px) {
+    .weding_day {
+        top: 25%;
+    }
+
+    .weding_day h1 {
+        font-size: 38px;
+    }
+
+    .weding_day p {
+        font-size: 18px;
+    }
+
+    .text_i_and_j {
+        padding-top: 30px;
+    }
+
+    .text_i_and_j h1 {
+        font-size: 32px;
+    }
+
+    .text_i_and_j p {
+        font-size: 16px;
+    }
+
+    header {
+        padding-bottom: 100px;
+    }
+    .songs {
+        top: 650px;
+    }
+
+    .calendar {
+        top: 750px;
+    }
+
+    .calendar h2 {
+        font-size: 1.8em;
+    }
+
+    .months {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .wedding-gallery {
+        flex-direction: column;
+        top: 800px;
+    }
+
+
+    .photo-frame img {
+        width: 200px;
+        height: 260px;
+    }
+
+    .schedule {
+        top: 900px;
+    }
+
+    .schedule svg {
+        width: 80%;
+        position: relative;
+        right: 100px;
+        top: 0;
+    }
+
+    .first {
+        position: absolute;
+        left: 260px;
+        font-size: 24px;
+    }
+
+    .second {
+        position: absolute;
+        left: 180px;
+        font-size: 24px;
+    }
+
+    .third {
+        position: absolute;
+        left: 260px;
+        font-size: 24px;
+    }
+
+    .schedule .heart {
+        position: relative;
+        top: 0px;
+        right: 100px;
+    }
+
+    .venue-section {
+        top: 800px;
+    }
+
+    .venue-image img {
+        max-width: 80%;
+    }
+
+    .map {
+        top: 800px;
+    }
+
+    .forms {
+        top: 800px;
+    }
+
+    .sections {
+        top: 950px;
+    }
+
+    .sections img {
+        position: relative;
+        left: 0;
+        top: -190px;
+    }
+
+    .countdown-container {
+        top: 800px;
+        padding: 100px;
+    }
+
+    .text {
+        font-size: 2em;
+        padding-top: 60px;
+    }
+
+    .time-box {
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .weding_day h1 {
+        font-size: 36px;
+    }
+
+    .weding_day p {
+        font-size: 18px;
+    }
+
+    .text_i_and_j h1 {
+        font-size: 34px;
+    }
+
+    .text_i_and_j p {
+        font-size: 18px;
+    }
+
+    .songs {
+        bottom: 100px;
+    }
+
+    .calendar {
+        top: 700px;
+    }
+
+    .days .highlight {
+        left: -10px;
+    }
+
+    .photo-frame img {
+        width: 150px;
+        height: 200px;
+    }
+
+    .wedding-gallery img[alt="Bride with bouquet"] {
+        width: 220px;
+        height: auto;
+    }
+
+    .schedule {
+        top: 850px;
+    }
+
+    .schedule svg {
+        position: relative;
+        right: 120px;
+        top: 0;
+    }
+
+    .schedule .heart {
+        position: relative;
+        top: 0px;
+        right: 120px;
+    }
+
+    .first {
+        left: 180px;
+    }
+
+    .second {
+        left: 140px;
+    }
+
+    .third {
+        left: 180px;
+    }
+
+    .venue-section {
+        top: 800px;
+    }
+
+    .map {
+        top: 800px;
+    }
+
+    .forms {
+        top: 800px;
+    }
+
+    .forms p {
+        width: 350px;
+    }
+
+    form {
+        width: 80%;
+    }
+
+    .sections {
+        height: 200px;
+        top: 960px;
+    }
+
+    .countdown-container {
+        top: 840px;
+        padding: 80px;
+    }
+
+    .text {
+        font-size: 1.5em;
+        padding-top: 50px;
+    }
+
+    .time-box {
+        padding: 9px 18px;
+    }
+}
