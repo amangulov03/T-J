@@ -55,7 +55,7 @@
     width: 35px;
     height: 35px;
     color: #90a7c4;
-    padding: 60px 0;
+    margin: 70px 0;
     animation: pulse 1.5s infinite;
 }
 
@@ -73,7 +73,6 @@
 }
 
 .songs {
-    z-index: 99;
     position: relative;
     top: 550px;
     cursor: pointer;
