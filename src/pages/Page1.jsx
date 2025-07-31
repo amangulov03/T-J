@@ -25,7 +25,7 @@ function Page1() {
         <>
             <header className="header">
                 <div className="background"></div>
-                <img src={Img13} alt="Wedding Hands" className={`wedding-image ${isVisible ? 'fade-in' : 'fade-out'}`} />
+                <img src={Img13} loading="lazy" alt="Wedding Hands" className={`wedding-image ${isVisible ? 'fade-in' : 'fade-out'}`} />
             </header>
             <main className="main">
                 <div className={`circle ${isVisible ? 'fade-in' : 'fade-out'}`} onClick={handleCircleClick}>

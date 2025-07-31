@@ -90,6 +90,7 @@ function Page2() {
                 <div className="background"></div>
                 <img
                     src={Img13}
+                    loading="lazy"
                     alt="Wedding Hands"
                     className={`wedding-image ${isVisible ? "fade-in" : ""}`}
                     initial={{ opacity: 0, scale: 0.8 }}
@@ -181,13 +182,13 @@ function Page2() {
                 }}
             >
                 <motion.div className="photo-frame" variants={variants}>
-                    <img src={Img1} alt="Couple holding hands" />
+                    <img src={Img1} alt="Couple holding hands" loading="lazy"/>
                 </motion.div>
                 <motion.div className="photo-frame" variants={variants}>
-                    <img src={Img14} alt="Bride with bouquet" />
+                    <img src={Img14} alt="Bride with bouquet" loading="lazy"/>
                 </motion.div>
                 <motion.div className="photo-frame" variants={variants}>
-                    <img src={Img15} alt="Wedding rings" />
+                    <img src={Img15} alt="Wedding rings" loading="lazy"/>
                 </motion.div>
             </motion.div>
             <motion.div
@@ -289,6 +290,7 @@ function Page2() {
                 <div className="venue-image">
                     <motion.img
                         src={Img2}
+                        loading="lazy"
                         alt="Khan Tengri Venue"
                         initial={{ opacity: 0, y: 50 }}
                         whileInView={{ opacity: 1, y: 0 }}
@@ -345,7 +347,7 @@ function Page2() {
                 viewport={{ once: true, amount: 0.3 }}
                 variants={variants}
             >
-                <img src={Img12} alt="" />
+                <img src={Img12} alt="" loading="lazy"/>
             </motion.div>
             <motion.div
                 className="countdown-container"
