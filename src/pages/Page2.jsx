@@ -364,7 +364,7 @@ function Page2() {
                 <div className="time-boxes">
                     <motion.div className="time-box" variants={variants}>
                         {timeLeft.days}
-                        <span>Күндөр</span>
+                        <span>Күн</span>
                     </motion.div>
                     <motion.div className="time-box" variants={variants}>
                         {timeLeft.hours}
