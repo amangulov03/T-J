@@ -83,7 +83,7 @@ function Page2() {
                 </motion.div>
                 <div className="background"></div>
                 <img
-                    src="/img/Ishenbek_Janna3.webp"
+                    src="/img/Ishenbek_Janna3.jpg"
                     loading="lazy"
                     alt="Wedding Hands"
                     className={`wedding-image ${isVisible ? "fade-in" : ""}`}
@@ -176,13 +176,13 @@ function Page2() {
                 }}
             >
                 <motion.div className="photo-frame" variants={variants}>
-                    <img src="/img/Ishenbek_janna.webp" alt="Couple holding hands" loading="lazy"/>
+                    <img src="/img/Ishenbek_janna.jpg" alt="Couple holding hands" loading="lazy"/>
                 </motion.div>
                 <motion.div className="photo-frame" variants={variants}>
-                    <img src="/img/Ishenbek_Janna4.webp" alt="Bride with bouquet" loading="lazy"/>
+                    <img src="/img/Ishenbek_Janna4.jpg" alt="Bride with bouquet" loading="lazy"/>
                 </motion.div>
                 <motion.div className="photo-frame" variants={variants}>
-                    <img src="/img/Ishenbek_Janna5.webp" alt="Wedding rings" loading="lazy"/>
+                    <img src="/img/Ishenbek_Janna5.jpg" alt="Wedding rings" loading="lazy"/>
                 </motion.div>
             </motion.div>
             <motion.div
@@ -283,7 +283,7 @@ function Page2() {
                 <h2>Салтанат өтүүчү жай</h2>
                 <div className="venue-image">
                     <motion.img
-                        src="/img/ordo.webp"
+                        src="/img/ordo.jpg"
                         loading="lazy"
                         alt="Khan Tengri Venue"
                         initial={{ opacity: 0, y: 50 }}
@@ -341,7 +341,7 @@ function Page2() {
                 viewport={{ once: true, amount: 0.3 }}
                 variants={variants}
             >
-                <img src="/img/Ishenbek_Janna2.webp" alt="" loading="lazy"/>
+                <img src="/img/Ishenbek_Janna2.jpg" alt="" loading="lazy"/>
             </motion.div>
             <motion.div
                 className="countdown-container"
