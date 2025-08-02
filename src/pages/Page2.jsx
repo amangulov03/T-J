@@ -1,11 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion"; // Импорт для анимаций
-import Img1 from "../img/Ishenbek_janna.webp";
-import Img12 from "../img/Ishenbek_Janna2.webp";
-import Img13 from "../img/Ishenbek_Janna3.webp";
-import Img14 from "../img/Ishenbek_Janna4.webp";
-import Img15 from "../img/Ishenbek_Janna5.webp";
-import Img2 from "../img/ordo.webp";
 import "./page2.css";
 import { IoIosHeart } from "react-icons/io";
 import music from "../songs/S-j-m-seni-Mirbek-Atabekov-ft.-Dj-Teddme-Premera-klipa-2018.mp3";
@@ -89,7 +83,7 @@ function Page2() {
                 </motion.div>
                 <div className="background"></div>
                 <img
-                    src={Img13}
+                    src="/img/Ishenbek_Janna3.webp"
                     loading="lazy"
                     alt="Wedding Hands"
                     className={`wedding-image ${isVisible ? "fade-in" : ""}`}
@@ -182,13 +176,13 @@ function Page2() {
                 }}
             >
                 <motion.div className="photo-frame" variants={variants}>
-                    <img src={Img1} alt="Couple holding hands" loading="lazy"/>
+                    <img src="/img/Ishenbek_janna.webp" alt="Couple holding hands" loading="lazy"/>
                 </motion.div>
                 <motion.div className="photo-frame" variants={variants}>
-                    <img src={Img14} alt="Bride with bouquet" loading="lazy"/>
+                    <img src="/img/Ishenbek_Janna5.webp" alt="Bride with bouquet" loading="lazy"/>
                 </motion.div>
                 <motion.div className="photo-frame" variants={variants}>
-                    <img src={Img15} alt="Wedding rings" loading="lazy"/>
+                    <img src="/img/Ishenbek_Janna5.webp" alt="Wedding rings" loading="lazy"/>
                 </motion.div>
             </motion.div>
             <motion.div
@@ -289,7 +283,7 @@ function Page2() {
                 <h2>Салтанат өтүүчү жай</h2>
                 <div className="venue-image">
                     <motion.img
-                        src={Img2}
+                        src="/img/ordo.webp"
                         loading="lazy"
                         alt="Khan Tengri Venue"
                         initial={{ opacity: 0, y: 50 }}
@@ -347,7 +341,7 @@ function Page2() {
                 viewport={{ once: true, amount: 0.3 }}
                 variants={variants}
             >
-                <img src={Img12} alt="" loading="lazy"/>
+                <img src="/img/Ishenbek_Janna2.webp" alt="" loading="lazy"/>
             </motion.div>
             <motion.div
                 className="countdown-container"

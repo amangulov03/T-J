@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'MyFont';
-    src: url(../fonts/miamanueva.ttf);
+    src: url("/public/fonts/miamanueva.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }

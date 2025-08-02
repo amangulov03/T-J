@@ -1,13 +1,13 @@
 @font-face {
     font-family: "MyFont2";
-    src: url(../fonts/Annabelle\ Cyr.ttf);
+    src: url("/public/fonts/Annabelle\ Cyr.ttf");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "MyFont3";
-    src: url(../fonts/flowext.otf);
+    src: url("/public/fonts/flowext.otf");
     font-weight: normal;
     font-style: normal;
 }
