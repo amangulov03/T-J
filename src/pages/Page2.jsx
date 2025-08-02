@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion"; // Импорт для анимаций
-import Img1 from "../img/Ishenbek_janna.jpg";
-import Img12 from "../img/Ishenbek_Janna2.jpg";
-import Img13 from "../img/Ishenbek_Janna3.jpg";
-import Img14 from "../img/Ishenbek_Janna4.jpg";
-import Img15 from "../img/Ishenbek_Janna5.jpg";
-import Img2 from "../img/images.jpeg";
+import Img1 from "../img/Ishenbek_janna.webp";
+import Img12 from "../img/Ishenbek_Janna2.webp";
+import Img13 from "../img/Ishenbek_Janna3.webp";
+import Img14 from "../img/Ishenbek_Janna4.webp";
+import Img15 from "../img/Ishenbek_Janna5.webp";
+import Img2 from "../img/ordo.webp";
 import "./page2.css";
 import { IoIosHeart } from "react-icons/io";
 import music from "../songs/S-j-m-seni-Mirbek-Atabekov-ft.-Dj-Teddme-Premera-klipa-2018.mp3";

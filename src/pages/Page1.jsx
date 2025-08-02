@@ -1,5 +1,5 @@
 import "./page1.css";
-import Img13 from "../img/Ishenbek_Janna3.jpg";
+import Img13 from "../img/Ishenbek_Janna3.webp";
 import { useNavigate } from 'react-router-dom';
 import React, { useState , useEffect} from 'react'; // Убрали useEffect, так как он не нужен
 
