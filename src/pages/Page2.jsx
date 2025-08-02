@@ -179,7 +179,7 @@ function Page2() {
                     <img src="/img/Ishenbek_janna.webp" alt="Couple holding hands" loading="lazy"/>
                 </motion.div>
                 <motion.div className="photo-frame" variants={variants}>
-                    <img src="/img/Ishenbek_Janna5.webp" alt="Bride with bouquet" loading="lazy"/>
+                    <img src="/img/Ishenbek_Janna4.webp" alt="Bride with bouquet" loading="lazy"/>
                 </motion.div>
                 <motion.div className="photo-frame" variants={variants}>
                     <img src="/img/Ishenbek_Janna5.webp" alt="Wedding rings" loading="lazy"/>
