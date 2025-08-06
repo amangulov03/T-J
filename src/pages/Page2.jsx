@@ -283,7 +283,7 @@ function Page2() {
                 <h2>Салтанат өтүүчү жай</h2>
                 <div className="venue-image">
                     <motion.img
-                        src="/img/ordo.jpg"
+                        src="/img/w.jpeg"
                         loading="lazy"
                         alt="Khan Tengri Venue"
                         initial={{ opacity: 0, y: 50 }}
