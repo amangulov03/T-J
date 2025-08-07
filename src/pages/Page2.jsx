@@ -78,7 +78,7 @@ function Page2() {
                     viewport={{ once: true, amount: 0.3 }}
                     variants={variants}
                 >
-                    <h1>Свадебный день</h1>
+                    <h1>Той куну</h1>
                     <p>27.09.2025</p>
                 </motion.div>
                 <div className="background"></div>
@@ -295,7 +295,7 @@ function Page2() {
                 <div className="venue-info">
                     <p>Ресторан</p>
                     <h1>«Ордо»</h1>
-                    <p>г. Нарын</p>
+                    <p>Нарын шаары</p>
                 </div>
             </motion.div>
             <motion.div
@@ -356,7 +356,7 @@ function Page2() {
                     },
                 }}
             >
-                <div className="text">Аркылуу көрүшкөнчө:</div>
+                <div className="text">Аркылуу көрүшкөнчө</div>
                 <div className="time-boxes">
                     <motion.div className="time-box" variants={variants}>
                         {timeLeft.days}
