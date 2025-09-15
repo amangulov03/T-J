@@ -232,7 +232,7 @@ function Page2() {
                     viewport={{ once: true, amount: 0.3 }}
                     transition={{ duration: 0.8 }}
                 >
-                    <h1>17:00</h1>
+                    <h1>15:00</h1>
                     <p>Конокторду тосуп алуу</p>
                 </motion.div>
                 <motion.div
@@ -242,7 +242,7 @@ function Page2() {
                     viewport={{ once: true, amount: 0.3 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
                 >
-                    <h1>17:30</h1>
+                    <h1>15:30</h1>
                     <p>Фуршет</p>
                 </motion.div>
                 <motion.div
@@ -252,7 +252,7 @@ function Page2() {
                     viewport={{ once: true, amount: 0.3 }}
                     transition={{ duration: 0.8, delay: 0.4 }}
                 >
-                    <h1>18:00</h1>
+                    <h1>16:00</h1>
                     <p>Банкет</p>
                 </motion.div>
                 <motion.div
