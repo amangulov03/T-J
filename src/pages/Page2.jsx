@@ -83,7 +83,7 @@ function Page2() {
                 </motion.div>
                 <div className="background"></div>
                 <img
-                    src="/img/5.jpeg"
+                    src="/img/55.jpeg"
                     loading="lazy"
                     alt="Wedding Hands"
                     className={`wedding-image ${isVisible ? "fade-in" : ""}`}
