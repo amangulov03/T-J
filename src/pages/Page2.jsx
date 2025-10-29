@@ -291,8 +291,8 @@ function Page2() {
                 </div>
                 <div className="venue-info">
                     <p>Ресторан</p>
-                    <h1>«Ордо»</h1>
-                    <p>Нарын шаары</p>
+                    <h1>Бай кол</h1>
+                    <p>Бишкек шаары</p>
                 </div>
             </motion.div>
             <motion.div
@@ -353,7 +353,7 @@ function Page2() {
                     },
                 }}
             >
-                <div className="text">Аркылуу көрүшкөнчө</div>
+                <div className="text">Көрүшкөнчө</div>
                 <div className="time-boxes">
                     <motion.div className="time-box" variants={variants}>
                         {timeLeft.days}

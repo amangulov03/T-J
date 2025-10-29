@@ -607,6 +607,7 @@ form button {
     .photo-frame img {
         width: 100px;
         height: 150px;
+        border: 2px solid #97966c;
     }
 
     .wedding-gallery img[alt="Bride with bouquet"] {
