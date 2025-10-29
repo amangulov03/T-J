@@ -8,13 +8,13 @@ export default function YandexMap() {
 
         window.ymaps.ready(() => {
             const map = new window.ymaps.Map(mapRef.current, {
-                center: [41.42602, 76.039950],
-                zoom: 15,
+                center: [42.874271, 74.532977],
+                zoom: 17,
                 controls: ['zoomControl', 'typeSelector'],
             });
 
             const placemark = new window.ymaps.Placemark(
-                [41.42602, 76.039950],
+                [42.874271, 74.532977],
                 {
                     balloonContent: "Нарын шаары, Ресторан Ордо",
                 },

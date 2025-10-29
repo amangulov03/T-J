@@ -11,7 +11,7 @@
 }
 
 .background {
-    background-color: #90a7c4;
+    background-color: #97966c;
     height: 360px;
     width: 100%;
     position: absolute;
@@ -49,7 +49,7 @@
     top: -30px;
     width: 180px;
     height: 180px;
-    background-color: #90a7c4;
+    background-color: #97966c;
     border-radius: 50%;
     margin: 0 auto;
     display: flex;

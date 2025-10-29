@@ -48,7 +48,7 @@ function Page2() {
     }, []);
 
     function calculateTimeLeft() {
-        const targetDate = new Date("2025-09-27T12:00:00+06:00").getTime();
+        const targetDate = new Date("2025-11-17T12:00:00+06:00").getTime();
         const now = new Date().getTime();
         const difference = targetDate - now;
 
@@ -79,11 +79,11 @@ function Page2() {
                     variants={variants}
                 >
                     <h1>Той куну</h1>
-                    <p>27.09.2025</p>
+                    <p>17.11.2025</p>
                 </motion.div>
                 <div className="background"></div>
                 <img
-                    src="/img/Ishenbek_Janna3.jpg"
+                    src="/img/5.jpeg"
                     loading="lazy"
                     alt="Wedding Hands"
                     className={`wedding-image ${isVisible ? "fade-in" : ""}`}
@@ -98,7 +98,7 @@ function Page2() {
                     viewport={{ once: true, amount: 0.3 }}
                     variants={variants}
                 >
-                    <h1>Ишенбек & Жанна</h1>
+                    <h1>Тилебалды  & Жаркынай</h1>
                     <p>
                         Үйлөнүү тоюубуздун кечесин <br /> Сиздер менен бөлүшкүбүз келет!
                     </p>
@@ -143,23 +143,21 @@ function Page2() {
             >
                 <h2>2025</h2>
                 <div className="months">
-                     <span>Август</span> | <span>Сентябрь</span> |{" "}
-                    <span>Октябрь</span>
+                     <span>Октябрь</span> | <span>Ноябрь</span> |{" "}
+                    <span>Декабрь</span>
                 </div>
                 <div className="days">
                     <span>1</span> <span>2</span> <span>3</span> <span>4</span>{" "}
                     <span>5</span> <span>6</span> <span>7</span>
                     <span>8</span> <span>9</span> <span>10</span> <span>11</span>{" "}
                     <span>12</span> <span>13</span> <span>14</span>
-                    <span>15</span> <span>16</span> <span>17</span> <span>18</span>{" "}
+                    <span>15</span> <span>16</span> <span className="day" >17
+                        <IoIosHeart className="highlight" style={{ color: "#97966c" }} /></span> <span>18</span>{" "}
                     <span>19</span> <span>20</span> <span>21</span>
                     <span>22</span> <span>23</span> <span>24</span> <span>25</span>{" "}
                     <span>26</span>
-                    <span className="day">
-                        <IoIosHeart className="highlight" style={{ color: "#90a7c4" }} />
-                        27
-                    </span>{" "}
-                    <span>28</span> <span>29</span> <span>30</span>
+                    <span>27</span>{" "}
+                    <span>28</span> <span>29</span> <span>30</span> <span>31</span>
                 </div>
             </motion.div>
             <motion.div
@@ -176,13 +174,13 @@ function Page2() {
                 }}
             >
                 <motion.div className="photo-frame" variants={variants}>
-                    <img src="/img/Ishenbek_janna.jpg" alt="Couple holding hands" loading="lazy"/>
+                    <img src="/img/1.jpeg" alt="Couple holding hands" loading="lazy"/>
                 </motion.div>
                 <motion.div className="photo-frame" variants={variants}>
-                    <img src="/img/Ishenbek_Janna4.jpg" alt="Bride with bouquet" loading="lazy"/>
+                    <img src="/img/4.jpeg" alt="Bride with bouquet" loading="lazy"/>
                 </motion.div>
                 <motion.div className="photo-frame" variants={variants}>
-                    <img src="/img/Ishenbek_Janna5.jpg" alt="Wedding rings" loading="lazy"/>
+                    <img src="/img/3.jpeg" alt="Wedding rings" loading="lazy"/>
                 </motion.div>
             </motion.div>
             <motion.div
@@ -283,7 +281,7 @@ function Page2() {
                 <h2>Салтанат өтүүчү жай</h2>
                 <div className="venue-image">
                     <motion.img
-                        src="/img/w.jpeg"
+                        src="/img/B.jpeg"
                         loading="lazy"
                         alt="Khan Tengri Venue"
                         initial={{ opacity: 0, y: 50 }}
@@ -317,7 +315,7 @@ function Page2() {
                     кадырлуу коногубуз болуп кетүүгө чакырабыз!
                 </p>
                 <h4>
-                    Той ээлери: <b>Кубанычбек </b>жана <b>Гульназ</b>
+                    Той ээлери: <b>Бейшенбек </b>жана <b>Роза</b>
                 </h4>
             </motion.div>
             <motion.div
@@ -341,7 +339,7 @@ function Page2() {
                 viewport={{ once: true, amount: 0.3 }}
                 variants={variants}
             >
-                <img src="/img/Ishenbek_Janna2.jpg" alt="" loading="lazy"/>
+                <img src="/img/2.jpeg" alt="" loading="lazy"/>
             </motion.div>
             <motion.div
                 className="countdown-container"

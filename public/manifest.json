@@ -3,17 +3,17 @@
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "iStock-1038829490-Photoroom.png",
+      "src": "tj-wedding-monogram-logo-elegant-initials-vector-38261408.avif",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "iStock-1038829490-Photoroom.png",
+      "src": "tj-wedding-monogram-logo-elegant-initials-vector-38261408.avif",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "iStock-1038829490-Photoroom.png",
+      "src": "tj-wedding-monogram-logo-elegant-initials-vector-38261408.avif",
       "type": "image/png",
       "sizes": "512x512"
     }
