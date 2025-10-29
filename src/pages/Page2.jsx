@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion"; // Импорт для анимаций
 import "./page2.css";
 import { IoIosHeart } from "react-icons/io";
-import music from "../songs/S-j-m-seni-Mirbek-Atabekov-ft.-Dj-Teddme-Premera-klipa-2018.mp3";
+import music from "../songs/Jax (02.14) - Озгочо кун.mp3";
 import Map2GIS from "../components/Map2GIS.jsx";
 import Forms from "../components/Forms.jsx";
 
@@ -83,7 +83,7 @@ function Page2() {
                 </motion.div>
                 <div className="background"></div>
                 <img
-                    src="/img/55.jpeg"
+                    src="/img/3.jpeg"
                     loading="lazy"
                     alt="Wedding Hands"
                     className={`wedding-image ${isVisible ? "fade-in" : ""}`}
