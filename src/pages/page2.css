@@ -605,12 +605,12 @@ form button {
     }
 
     .photo-frame img {
-        width: 150px;
-        height: 200px;
+        width: 100px;
+        height: 150px;
     }
 
     .wedding-gallery img[alt="Bride with bouquet"] {
-        width: 220px;
+        width: 150px;
         height: auto;
     }
 
