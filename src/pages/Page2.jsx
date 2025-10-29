@@ -291,7 +291,7 @@ function Page2() {
                 </div>
                 <div className="venue-info">
                     <p>Ресторан</p>
-                    <h1>Бай кол</h1>
+                    <h1>Бай көл</h1>
                     <p>Бишкек шаары</p>
                 </div>
             </motion.div>
