@@ -230,8 +230,7 @@ function Page2() {
                     viewport={{ once: true, amount: 0.3 }}
                     transition={{ duration: 0.8 }}
                 >
-                    <h1>15:00</h1>
-                    <p>Конокторду тосуп алуу</p>
+                   
                 </motion.div>
                 <motion.div
                     className="second"
@@ -241,7 +240,7 @@ function Page2() {
                     transition={{ duration: 0.8, delay: 0.2 }}
                 >
                     <h1>15:30</h1>
-                    <p>Фуршет</p>
+                    <p>Конокторду тосуп алуу</p>
                 </motion.div>
                 <motion.div
                     className="third"
@@ -265,7 +264,7 @@ function Page2() {
                             position: "absolute",
                             top: -340,
                             left: 8,
-                            color: "#90a7c4",
+                            color: "#97966c",
                             zIndex: 999,
                         }}
                     />

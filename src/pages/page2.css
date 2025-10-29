@@ -484,8 +484,8 @@ form button {
     }
 
     .wedding-gallery {
-        flex-direction: column;
-        top: 755px;
+        /* flex-direction: column;
+        top: 755px; */
     }
 
 
