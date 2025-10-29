@@ -240,7 +240,7 @@ function Page2() {
                     transition={{ duration: 0.8, delay: 0.2 }}
                 >
                     <h1>15:30</h1>
-                    <p>Конокторду тосуп алуу</p>
+                    <p>Конокторду <br></br>тосуп алуу</p>
                 </motion.div>
                 <motion.div
                     className="third"
