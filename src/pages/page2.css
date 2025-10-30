@@ -14,7 +14,6 @@
 
 * {
     font-family: "MyFont", sans-serif;
-
 }
 
 p {
@@ -302,6 +301,8 @@ p {
     font-family: "MyFont2", sans-serif;
     font-size: 36px;
     font-weight: 100;
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 .map h4 b {
@@ -313,6 +314,8 @@ p {
     /* font-family: "MyFont3", sans-serif; */
     font-size: 20px;
     padding: 20px 0;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .forms {
