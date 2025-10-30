@@ -78,7 +78,7 @@ function Page2() {
                     viewport={{ once: true, amount: 0.3 }}
                     variants={variants}
                 >
-                    <h1>Той куну</h1>
+                    <h1>Той күнү</h1>
                     <p>17.11.2025</p>
                 </motion.div>
                 <div className="background"></div>
