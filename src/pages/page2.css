@@ -35,7 +35,8 @@ p {
 }
 
 .weding_day h1 {
-    font-family: "MyFont2", sans-serif;
+    font-family: "MyFont", sans-serif;
+    /* font-family: "MyFont2", sans-serif; */
     font-size: 54px;
     color: #fff;
     font-weight: 100;
